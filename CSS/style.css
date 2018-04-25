@@ -1,0 +1,289 @@
+body {
+	font: 15px/1.5 Roboto, Open Sans, Lato;
+	padding: 0;
+	margin: 0;
+	background: #5a3f37; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5a3f37, #2c7744); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5a3f37, #2c7744); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Whole Page */
+.container-fluid {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+header {
+	background: #5A3F37;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #4b4247 3px solid; 
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+	}
+
+header nav {
+	float: right;
+	margin-top: 15px;
+}
+
+header .highlight, header .current a {
+	color:  #2C7744;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #9099A2;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+	
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: #f5f5f5;
+
+}
+
+h2 {
+	text-align: center;
+	margin-top: 75px; 
+	font-weight: bold;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #f5f5f5;
+}
+
+#jumbo-p{
+	text-align: center;
+}
+
+/* Showcase */
+
+#showcase {
+	height: 400px;
+	background: url("https://static.pexels.com/photos/280229/pexels-photo-280229.jpeg")no-repeat;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	color: white;
+    background-color: #45a049;
+}
+
+#ideas {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+
+}
+
+.btn-info {
+	color: black !important;
+	background-color: white !important; 
+	border-color: #093028 5px !important; 
+	margin-left: 650px;
+}
+
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+  font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  margin-top: 25px;
+  width: 100%;
+  height: 550px;
+  background: #093028;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #fcc500;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+.w3-col s4 {
+	width: 15%;
+
+}
+
+#about-div-p {
+	color: white;
+}
+
+.about-div {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 15px;
+	width: 50%;
+}
+
+#your-name {
+	color: #fcc500;
+}
+
+.video-buttons {
+	float: right;
+	color: black;
+}
+
+.why-us {
+	font-size: 30px;
+	width: 50%;
+	float: right;
+}
+
+#why {
+	color: white;
+}
+
+#us {
+	color: #fcc500; 
+}
+
+#video1 {
+	float: right;
+}
+
+#play-btn {
+	background-color: #2C7744;
+	border-radius: 50%;
+	border-color: #2C7744;
+}
+
+#pause-btn {
+	background-color: #f44336; 
+	border-radius: 50%;
+	border-color: #f44336;
+}
+
+#max-btn {
+	border-radius: 50%;
+	background-color: #ff9900;
+	border-color: #ff9900;
+}
+
+#min-btn {
+	border-radius: 50%;
+	background-color: #1a1aff;
+	border-color: #1a1aff;
+}
+
+#norm-btn {
+	background-color: #FFFF00;
+	border-radius: 50%;
+	border-color: #FFFF00; 
+}
+
+/* social medias icons */
+
+h3 a {
+	margin-right: 45px;
+}
+
+#social-medias 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+ }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
